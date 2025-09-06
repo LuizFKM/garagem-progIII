@@ -1,3 +1,4 @@
+
 create database db_garagem;
 use db_garagem;
 
@@ -17,12 +18,13 @@ CREATE TABLE tb_garagens(
     bairro VARCHAR(100),
     rua VARCHAR(100),
     numero VARCHAR(50),
-    cep VARCHAR(100)
+    cep VARCHAR(100),
 );
 
 INSERT INTO tb_usuarios (id, nome, email, senha) 
 	VALUES ("1", "aaa", "aaa", "123");
     
 SELECT * FROM tb_usuarios;
-
+SELECT * FROM tb_garagens;
 SELECT @@version;
+
