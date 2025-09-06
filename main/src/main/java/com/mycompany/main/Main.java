@@ -4,6 +4,8 @@
 
 package com.mycompany.main;
 
+import com.mycompany.main.view.Login;
+
 /**
  *
  * @author Aluno
@@ -11,6 +13,6 @@ package com.mycompany.main;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        new Login().setVisible(true);
     }
 }
